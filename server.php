@@ -1,7 +1,7 @@
 <?php
     $paragraph = $_GET['paragraph'];
     $badword = $_GET['badword'];
-    $modifiedParagraph = str_replace($badword, "***", $paragraph);
+    $modifiedParagraph = str_replace($badword, "###", $paragraph);
 ?>
 
 <!DOCTYPE html>
